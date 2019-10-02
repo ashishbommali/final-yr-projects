@@ -1,0 +1,172 @@
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-size: cover;
+}
+.login_box{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+
+}
+.p{
+	float: left;
+	font-size: 40px;
+	border-bottom: 3px solid #4caf50;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+.text_box{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 5px;	
+	display: block;
+	margin: 12px 0;
+	border-radius: 24px;
+	background: none;
+	border: 2px solid #4caf50;
+}
+.text_box i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.email_box{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 5px;
+	margin: 12px 0;
+	border: 2px solid #4caf50;
+	border-radius: 24px;
+}
+.text_box input{
+	border:none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float:left;
+	margin:0 10px;
+}
+.password_box input{
+	border:none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float:left;
+	margin:0 10px;
+}
+.email_box input{
+	border:none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float:left;
+	margin:0 10px;
+
+}
+
+.btn{
+	width: 100%;
+	background: none;
+	border: 2px solid #4caf50;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 12px 0;
+	border-radius: 24px;
+}
+.search-container{
+	background: none;
+	border: 2px solid #4caf50;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	float: right;
+	margin: 0 6px;
+}
+
+.user_logo{
+	background: none;
+	border: 2px solid #4caf50;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 24px;
+	cursor: pointer;
+}
+.cart_logo{
+	background: none;
+	border: 2px solid #4caf50;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 24px;
+}
+.home_logo{
+	background: none;
+	border: none;
+	color: white;
+	padding: 5px;
+	font-size: 50px;
+	cursor: pointer;
+	border-radius: 24px;
+}
+.search_box{
+	position: absolute;
+	top: 25%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	background: green;
+	height: 15spx;
+	border-radius: 24px;
+	padding: 10px;
+}
+.search_box:hover > .search_txt{
+	width: 150px;
+	padding: 0 6px;
+
+}
+.search_btn{
+	color: white;
+	float: right;
+	width: 20px;
+	height: 15px;
+	border-radius: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search_txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 15px;
+	transition: 0.3s;
+	line-height: 10px;
+	width: 0px;
+}
+.branch_margin{
+	text-align: center;
+	overflow: hidden;
+	font-size: 15px;
+	margin: 4px 0;
+}
