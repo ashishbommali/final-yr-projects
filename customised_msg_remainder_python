@@ -1,0 +1,34 @@
+import datetime
+
+#The message which you wanted to get remainded
+print("enter you'r alarm message!!!")
+msg=input()
+
+#set the time for remainder
+print("enter time to wake u up ! in %H:%M:%S in 24 hours format")
+
+while(1):
+    s=input()
+    l=s.split(":")
+    if( int(l[0]) >23 or ((int(l[1]) or int(l[2]))>59 )):
+        print("please dont test me ! \n Enter valid time")  #warnign msg
+    else:
+        break
+
+#required api's
+from gtts import gTTS 
+import os 
+
+#choose language that are available in python 
+language = 'en'
+myobj = gTTS(text=msg, lang=language, slow=False) 
+myobj.save("alarm1.mp3")
+
+#connverting the format from text msg to aduio msg
+while(1):
+    if(datetime.datetime.now().strftime("%H:%M:%S") == s):
+         os.system("alarm1.mp3")
+         break
+ 
+            
+        
